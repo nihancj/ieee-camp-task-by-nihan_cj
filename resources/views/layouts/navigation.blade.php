@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body stiky-top p-3" data-bs-theme="dark">
             <div class="container align-right">
         <div class="logo pb-3">
- <a class="navbar-brand" href="#">
+ <a class="navbar-brand" href="{{route('home')}}">
             <img src="{{ asset('assets/link-logo.png') }}" height=50 alt="">
 </a>
         </div>
@@ -45,7 +45,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-light" aria-current="page" href="#top">Home</a>
+                            <a class="nav-link text-light" aria-current="page" href="{{route('home')}}">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
@@ -55,11 +55,11 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item"
                                         href="{{route('2024')}}">Present</a></li>
-                                <li><a class="dropdown-item" href="https://ieee-link.org/office-bearers/2023">2023</a>
+                                <li><a class="dropdown-item" href="{{route('2024')}}">2023</a>
                                 </li>
-                                <li><a class="dropdown-item" href="https://ieee-link.org/office-bearers/2022">2022</a>
+                                <li><a class="dropdown-item" href="{{route('2024')}}">2022</a>
                                 </li>
-                                <li><a class="dropdown-item" href="https://ieee-link.org/office-bearers/2021">2021</a>
+                                <li><a class="dropdown-item" href="{{route('2024')}}">2021</a>
                                 </li>
                             </ul>
                         </li>
