@@ -54,7 +54,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item"
-                                        href="https://ieee-link.org/office-bearers/2024">Present</a></li>
+                                        href="{{route('2024')}}">Present</a></li>
                                 <li><a class="dropdown-item" href="https://ieee-link.org/office-bearers/2023">2023</a>
                                 </li>
                                 <li><a class="dropdown-item" href="https://ieee-link.org/office-bearers/2022">2022</a>
