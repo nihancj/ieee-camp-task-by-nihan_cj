@@ -16,5 +16,27 @@
             </div>
         </div>
     </section>
-<div class="div" style="height 10000000px;">a</div>
+
+<br>
+<br>
+
+
+<div class="wrap animate pop">
+	<div class="overlay">
+		<div class="overlay-content animate slide-left delay-2">
+			<h1 class="animate slide-left pop delay-4">About Us</h1>
+			<p class="animate slide-left pop delay-5" style="color: black; margin-bottom: 2.5rem;">Link 2024</p>
+		</div>
+		<div class="image-content animate slide delay-5" style="background-image: {{asset('assets/images/home/bg3.webp')}}"></div>
+		<div class="dots animate">
+			<div class="dot animate slide-up delay-6"></div>
+			<div class="dot animate slide-up delay-7"></div>
+			<div class="dot animate slide-up delay-8"></div>
+		</div>
+	</div>
+	<div class="text">
+<p style="color: #3e1c14;">LINK (Local Integrated Network of Kerala IEEE Students) is an innovative concept that originated in IEEE Kerala Section in India, aimed at networking student branches in an effective way, thereby increasing the value in IEEE Student membership. LINK was formally inaugurated by past IEEE President Mr. Cleon Anderson in January 2005. Since its inception LINK has achieved tremendous results, causing an exponential increase in student branches and student activities in IEEE Kerala Section over the years. The model of link was adopted by IEEE Region 10 as R10 GINI (Global Integrated Network of IEEE Students).</p>
+	</div>
+</div>
+
 @endsection

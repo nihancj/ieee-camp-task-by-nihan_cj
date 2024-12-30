@@ -16,6 +16,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/a.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/2024.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/tree_card.css') }}">
 </head>
 <style>
             header {
@@ -63,7 +64,7 @@
         @include('layouts.navigation')
 
         <div class="container-fluid page-body-wrapper">
-            <div class="main-panel bg-light">
+            <div class="main-panel">
                 @yield('content')
             </div>
         </div>
